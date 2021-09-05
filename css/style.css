@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/* Фоновое изображение */
+body {
+	background-image: url(../img/bg.jpg); /* Добавить фоновую картинку*/
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    -khtml-background-size: 100% 100%; /* Konqueror ≥ 3.5.4 */
+    background-size: 100% 100%; /* Браузеры с поддержкой CSS3: FF ≥ 4, Opera ≥ 10.53, IE ≥ 9.0 */
+    background-size: 100%; /* Современные браузеры */
+ 	background-color: #FFF; /* Базовый фон страницы */
+ 	background-repeat: no-repeat; /* Запретить копировать картинку */
+    background-size: cover; /* Задать сохранение пропорции картинки */
+}
+
+/* Дизайн меню и кнопок*/
+
+div {
+	display: block;
+}
+.menu {
+	border: 1px solid transparent; /* Сделать прозрачную рамку */
+	margin-top: 10px; /* Сделать отступ сверху */
+	height: 80px; /* Задать высоту */
+}
+.box {
+	border-bottom: 2px solid #434343; /* Добавить линию снизу */
+	width: 495px; /* Добавить ширину линии */
+	padding-bottom: 15px; /* Добавить отступы снизу */
+	margin-left: 180px;
+	-moz-box-sizing: border-box; /* Для Firefox */  
+    box-sizing: border-box; /* Ширина блока с полями */
+}
+#logo {
+	float: left; /* Задать положение логотипа */
+	position: static; /* Задать позицию */
+	margin-top: 17px; /* Добавить отступы */
+	margin-left: 70px; /* Добавить отступы */
+	
+}
+ul {
+	height: 38px; /* Задать высоту блока меню */
+	width: 550px; /* Задать ширину блока меню */
+	list-style:  none; /* Убрать маркеры списка */
+	margin: 0; /* Убирать отступы */
+	padding-left: 0px; /* Добавить отступы */
+	margin-top:25px; /* Сделать отступы сверху*/	
+}
+li {
+ 	float:left; /* Размеcтить список горизонтально для реализации меню */
+ 	margin-right: 0px; /* Добавить отступ у пунктов меню */
+ 	font-size: 25px; /* Задать размер текста */
+}
+a {
+  	text-decoration: none; /* Убрать подчеркивание текста ссылок */
+  	cursor: url(../img/cursor.png), pointer; /* Задать форму курсора */
+ 	color: #e7e7e7; /* Задать цвет текста */
+ }
+.buttmen:hover {
+  	background: #434343; / * Изменить фон при наведении */
+}
+.buttmen {
+  	font-family: Helvetica, sans-serif; /* Изменить шрифт */
+  	line-height: 54px; /* Выровнять меню по вертикали */
+  	text-decoration: none; /* Убрать подчеркивание текста ссылок */
+ 	cursor: url(../img/cursor.png), pointer; /* Задать форму курсора */
+ 	color: #e7e7e7; /* Задать цвет текста */
+ 	background:#000000;
+ 	padding: 0px 50px 0px; 
+ 	display: block; 
+ 	-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  	-o-transition: all 0.3s 0.01s ease;
+  	-webkit-transition: all 0.3s 0.01s ease;
+ }
+
+/* Дизайн основной части */
+
+main {
+	border: 1px solid transparent; /* Сделать прозрачную рамку */
+	margin-left: 60px; /* Сделать отступ слева */
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    -khtml-background-size: 100% 100%; /* Konqueror ≥ 3.5.4 */
+    background-size: 100% 100%; /* Браузеры с поддержкой CSS3: FF ≥ 4, Opera ≥ 10.53, IE ≥ 9.0 */
+}
+.content {
+	margin-top: 50px; /* Сделать отступ сверху */
+	width: 550px; /* Задать ширину контейнера */
+}
+.button {
+	margin-top: 40px; /* Сделать отступ сверху */
+	height: 200px; /* Задать высоту */
+}
+#adventure {
+	padding-top: 10px; /* Сделать отступ сверху */
+	padding-bottom: 30px; /* Сделать отступ снизу */
+}
+p {
+	color: #d4d4d4; /* Изменить цвет шрифта*/
+	font-size: 18px; /* Изменить размер шрифта */
+	font-size: 1,5vw; /* Изменить размер текста */
+	font-family: Gill Sans, sans-serif /* Изменить шрифт*/
+    position: absolute; /* Задать позицию*/
+}
+
+/* Дизайн подвала */
+
+footer {
+	border: 1px solid transparent; /* Сделать прозрачную рамку */
+	margin-left: 60px; /* Сделать отступ слева */
+}
+#youtube {
+	margin-top: 30px;
+	margin-right: 15px;
+}
