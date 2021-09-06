@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-/* Для экрана: */
-@media only screen and (max-width: 768px) {
-    /* Для мобильных телефонов: */
-    [class*="col-"] {
-        width: 100%;
-    }
-}
-
 /* Фоновое изображение */
 body {
 	background-image: url(../img/bg.jpg); /* Добавить фоновую картинку*/
